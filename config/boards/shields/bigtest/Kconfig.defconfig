@@ -1,0 +1,6 @@
+if SHIELD_FAW36_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "bigtest"
+    
+endif

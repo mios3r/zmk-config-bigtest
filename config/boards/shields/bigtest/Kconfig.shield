@@ -1,0 +1,2 @@
+config SHIELD_BIGTEST
+	def_bool $(shields_list_contains,bigtest)
