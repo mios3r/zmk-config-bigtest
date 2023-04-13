@@ -11,18 +11,18 @@
 
         default_layer {
             bindings = <
-                        &kp F13   
-            &kp F14     &kp F15    &kp F16   
-            &to 1       &kp F18    &kp F19   
+                        &kp A   
+            &kp B     &kp C    &kp D   
+            &to 1       &kp E    &kp F   
             >;
         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         bt_layer {
             bindings = <
-                        &kp C_PP   
-            &bt BT_CLR     &trans     &bootloader   
-            &to 0          &trans     &trans
+                        &kp Q   
+            &kp W     &kp E     &kp R   
+            &to 0          &kp T     &kp Y
             >;
         sensor-bindings = <&inc_dec_kp C_NEXT C_PREV>;
         };
